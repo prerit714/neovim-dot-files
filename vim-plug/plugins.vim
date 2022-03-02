@@ -33,5 +33,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'airblade/vim-rooter'
     " Project management with startify
     Plug 'mhinz/vim-startify'
+    " Vim colorizer 
+    Plug 'norcalli/nvim-colorizer.lua'
 
 call plug#end()
