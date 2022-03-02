@@ -34,7 +34,6 @@ set timeoutlen=500                      " By default timeoutlen is 1000 ms
 set formatoptions-=cro                  " Stop newline continution of comments
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 set colorcolumn=80                      " Make a line at 80th column
-set relativenumber                      " Set relativeline number
 set cursorcolumn                        " Mark cursor's coloumn position
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 cmap w!! w !sudo tee %
