@@ -35,5 +35,6 @@ set formatoptions-=cro                  " Stop newline continution of comments
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 set colorcolumn=80                      " Make a line at 80th column
 set cursorcolumn                        " Mark cursor's coloumn position
+set relativenumber                      " Set relative line numbers to jump better
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 cmap w!! w !sudo tee %
